@@ -1,3 +1,7 @@
+## HEAD
+
+- check that userAgent exists before calling indexOf in `supportsPopStateOnHashChange
+
 ## [v4.6.3]
 > Jun 20, 2017
 

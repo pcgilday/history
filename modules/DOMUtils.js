@@ -40,6 +40,7 @@ export const supportsHistory = () => {
  * IE10 and IE11 do not.
  */
 export const supportsPopStateOnHashChange = () =>
+  window.navigator.userAgent &&
   window.navigator.userAgent.indexOf('Trident') === -1
 
 /**
